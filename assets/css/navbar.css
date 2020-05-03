@@ -1,0 +1,46 @@
+/* CCS Navbar */
+
+nav
+{
+    display: flex;
+    width: 100vw !important;
+    background-color: rgba(214, 239, 255, 0.5);
+    font-family: "Montserrat";
+}
+ul
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+li
+{
+    list-style-type: none;
+    margin: 0 4vw;
+    font-size: 4vh;
+    padding-top: 2vw;
+}
+.btn-nav {
+    text-decoration: none !important;
+    padding: 2vw;
+    color: black;
+}
+
+.btn-nav:hover
+{
+    color: gold;
+    background-color: #C6E9FF;
+}
+
+/* Responsive */
+@media only screen and (max-width: 500px) {
+    ul{
+        flex-direction: column;
+    }
+    li{
+        margin: 0;
+    }
+    a{
+        display: block;
+    }
+}

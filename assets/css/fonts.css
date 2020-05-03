@@ -1,0 +1,47 @@
+/* RobotoCondensed Regular */
+
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url("./assets/fonts/RobotoCondensed-Regular.woff2") format('woff2');
+    src: url("./assets/fonts/RobotoCondensed-Regular.eot");
+    src: url("./assets/fonts/RobotoCondensed-Regular.eot?#iefix") format('embedded-opentype'),
+    url("./assets/fonts/RobotoCondensed-Regular.woff2") format('woff2'),
+    url("./assets/fonts/RobotoCondensed-Regular.woff") format('woff'),
+    url("./assets/fonts/RobotoCondensed-Regular.ttf") format('truetype');
+    font-weight: 400;
+}
+
+/* DancingScript Regular */
+
+@font-face {
+    font-family: "DancingScript-Regular";
+    src: url("./assets/fonts/DancingScript-Regular.woff2") format('woff2');
+    src: url("./assets/fonts/DancingScript-Regular.eot");
+    src: url("./assets/fonts/DancingScript-Regular.eot?#iefix") format('embedded-opentype'),
+    url("./assets/fonts/DancingScript-Regular.woff2") format('woff2'),
+    url("./assets/fonts/DancingScript-Regular.woff") format('woff'),
+    url("./assets/fonts/DancingScript-Regular.ttf") format('truetype');
+    font-weight: 400;
+}
+
+/* DancingScript-Regular */
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("./assets/fonts/Montserrat-Regular.woff2") format('woff2');
+    src: url("./assets/fonts/Montserrat-Regular.eot");
+    src: url("./assets/fonts/Montserrat-Regular.eot?#iefix") format('embedded-opentype'),
+    url("./assets/fonts/Montserrat-Regular.woff2") format('woff2'),
+    url("./assets/fonts/Montserrat-Regular.woff") format('woff'),
+    url("./assets/fonts/Montserrat-Regular.ttf") format('truetype');
+    font-weight: 400;
+}
+
+/* Fonts application */
+
+.nav
+{
+    font-family: "DancingScript-Regular";
+    font-weight: 400;
+    font-style: normal;
+}

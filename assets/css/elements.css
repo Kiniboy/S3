@@ -1,0 +1,43 @@
+/* Logo principal */
+.logo
+{
+    max-width: 100px;
+    height: 100px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Social Network List */
+
+.social-list
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-list > li
+{
+    list-style-type: none;
+    margin: 0 1vw;
+    padding-top: 2vw;
+}
+.social-list > li > a
+{
+    text-decoration: none !important;
+}
+
+/* Social Networks Icons*/
+
+.fab {
+    margin-right: 30px;
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-linkedin
+{
+    color : #0e76a8;
+}
+.fa-skype
+{
+    color: #00aff0;
+}
